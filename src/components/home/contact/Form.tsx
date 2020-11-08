@@ -88,6 +88,8 @@ const Form = () => {
       onSubmit={handleSubmit(onSubmit)}
       method="post"
     >
+      <input type="hidden" name="bot-field" />
+      <input type="hidden" name="form-name" value="contact" />
       <input
         name="name"
         type="text"
