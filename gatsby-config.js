@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 module.exports = {
   siteMetadata: {
     title: `Darian Sampare | Full Stack Software Engineer`,
@@ -53,8 +55,8 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: `xbt06lwfz7q1`,
-        accessToken: `2P9wRjHqLqjJRIRgshwBuTzBzKAH_uFyk2cOcAvNgjk`,
+        spaceId: process.env.CONTENTFUL_SPACE,
+        accessToken: process.env.CONTENTFUL_TOKEN,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

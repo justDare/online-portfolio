@@ -1,6 +1,6 @@
 # My Current Software Portfolio
 
-This project was built off the [gatsby-starter-typescript](https://www.gatsbyjs.com/starters/haysclark/gatsby-starter-typescript) repository.
+This project was built off the [gatsby-starter-default-typescript](https://github.com/andykenward/gatsby-starter-default-typescript) repository.
 
 Further additions were made to support styled component and sourcing data from [Contentful](https://www.contentful.com/).
 
